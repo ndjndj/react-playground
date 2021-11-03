@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Card from './components/react-dnd/card'
+import Sample from './components/react-draggable/sample'
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
-      <Card text='Write the docs' />
+      <Sample />
     </div>
   );
 }
