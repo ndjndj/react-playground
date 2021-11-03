@@ -1,7 +1,4 @@
 import Draggable from 'react-draggable'; // The default
-import {DraggableCore} from 'react-draggable'; // <DraggableCore>
-import Draggable, {DraggableCore} from 'react-draggable'; // Both at the same time
-
 
 export default function Sample() {
 
