@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Sample from './components/react-draggable/sample'
+import Sample from './components/mui/sample'
 
 function App() {
   return (
