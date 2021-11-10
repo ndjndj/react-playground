@@ -25,7 +25,22 @@ export default function Sample() {
                     </Typography>
                 </Toolbar>
             </AppBar>
-
+            <Drawer variant="permanent" open={false}>
+                <List>
+                    <ListItem button>
+                        <ListItemIcon>
+                        <MenuIcon />
+                        </ListItemIcon>
+                        <ListItemText primary="トップページ" />
+                    </ListItem>
+                    <ListItem button>
+                        <ListItemIcon>
+                        <MenuIcon />
+                        </ListItemIcon>
+                        <ListItemText primary="商品ページ" />
+                    </ListItem>
+                </List>
+            </Drawer>
         </React.Fragment>
 
     )
