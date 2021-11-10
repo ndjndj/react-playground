@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
 import AppBar from "@material-ui/core/AppBar";
 import IconButton from "@material-ui/core/IconButton";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -10,6 +9,7 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import Drawer from "@material-ui/core/Drawer";
+import TableSample from './table-sample';
 
 export default function Sample() {
 
@@ -41,6 +41,9 @@ export default function Sample() {
                     </ListItem>
                 </List>
             </Drawer>
+
+            <TableSample></TableSample>
+
         </React.Fragment>
 
     )

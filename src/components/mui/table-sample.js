@@ -27,12 +27,14 @@ createData("みかん", "フルーツ", 250, 180),
 
 const useStyles = makeStyles({
 table: {
+    mt: 100,
+    ml: 100,
     minWidth: 650,
 },
 });
 
 export default function TableSample() {
-
+    const classes = useStyles();
     return (
         <React.Fragment>
             <TableContainer component={Paper}>
