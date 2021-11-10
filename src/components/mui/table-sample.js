@@ -30,3 +30,36 @@ table: {
     minWidth: 650,
 },
 });
+
+export default function TableSample() {
+
+    return (
+        <React.Fragment>
+            <TableContainer component={Paper}>
+                <Table className={classes.table} aria-label="simple table">
+                <TableHead>
+                    <TableRow>
+                    <TableCell>商品名</TableCell>
+                    <TableCell align="right">カテゴリー</TableCell>
+                    <TableCell align="right">重量(g)</TableCell>
+                    <TableCell align="right">価格(円)</TableCell>
+                    </TableRow>
+                </TableHead>
+                <TableBody>
+                    {rows.map((row) => (
+                    <TableRow key={row.name}>
+                        <TableCell component="th" scope="row">
+                        {row.name}
+                        </TableCell>
+                        <TableCell align="right">{row.category}</TableCell>
+                        <TableCell align="right">{row.weight}</TableCell>
+                        <TableCell align="right">{row.price}</TableCell>
+                    </TableRow>
+                    ))}
+                </TableBody>
+                </Table>
+            </TableContainer>
+        </React.Fragment>
+
+    )
+  }
