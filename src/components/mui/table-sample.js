@@ -17,10 +17,16 @@ const createData = (
     return { name, category, weight, price };
   };
 
-  const rows = [
-    createData("チョコレート", "お菓子", 100, 120),
-    createData("ケーキ", "お菓子", 400, 480),
-    createData("りんご", "フルーツ", 500, 360),
-    createData("バナナ", "フルーツ", 200, 300),
-    createData("みかん", "フルーツ", 250, 180),
-  ];
+const rows = [
+createData("チョコレート", "お菓子", 100, 120),
+createData("ケーキ", "お菓子", 400, 480),
+createData("りんご", "フルーツ", 500, 360),
+createData("バナナ", "フルーツ", 200, 300),
+createData("みかん", "フルーツ", 250, 180),
+];
+
+const useStyles = makeStyles({
+table: {
+    minWidth: 650,
+},
+});
