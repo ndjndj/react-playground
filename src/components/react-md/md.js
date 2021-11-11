@@ -32,7 +32,9 @@ export default function MdSample() {
       setText(text)
     }
     const handleImageUpload = async (file) => {
-      return
+        const data = new FormData();
+        data.append('image', file)
+        return
     };
     const renderHTML = (text) => {
       return mdParser.render(text)
