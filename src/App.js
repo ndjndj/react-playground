@@ -1,11 +1,10 @@
 import './App.css';
-import Sample from './components/mui/sample'
-import MdSample from './components/react-md/md';
+import MdeSample from './components/react-md/mde';
 
 function App() {
   return (
     <div className="App">
-      <MdSample />
+      <MdeSample />
     </div>
   );
 }
