@@ -1,10 +1,10 @@
 import './App.css';
-import MdeSample from './components/react-md/mde';
+import MarkDownEditor from './components/simplemde/simplemde';
 
 function App() {
   return (
     <div className="App">
-      <MdeSample />
+      <MarkDownEditor />
     </div>
   );
 }
